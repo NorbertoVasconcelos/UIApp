@@ -20,9 +20,9 @@ class SignupViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        roundCorners()
-        imgProfile.layer.cornerRadius = imgProfile.bounds.height/2
-        addShadow(imgProfile)
+//        roundCorners()
+//        imgProfile.layer.cornerRadius = imgProfile.bounds.height/2
+//        addShadow(imgProfile)
     }
     
     func addShadow(_ view: UIView) {
